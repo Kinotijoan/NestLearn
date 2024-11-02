@@ -2,7 +2,7 @@ import BenefitsCard from "./BenefitsCard";
 
 export default function Benefits(){
     return(
-            <div className={"xl:w-[1300px] xl:h-[850px] mx-auto py-14 space-y-8 "}>
+            <div id={"services"} className={"xl:w-[1300px] xl:h-[850px] mx-auto py-14 space-y-8 "}>
                 <div className={"text-center"}>
                     <h1 className={"text-4xl font-semibold text-black"}>Why Choose Us</h1>
                     <p className={"text-2xl text-gray-500"}>We are the best in the market</p>
