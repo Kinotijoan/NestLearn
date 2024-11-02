@@ -7,7 +7,7 @@ export default function Benefits(){
                     <h1 className={"text-4xl font-semibold text-black"}>Why Choose Us</h1>
                     <p className={"text-2xl text-gray-500"}>We are the best in the market</p>
                 </div>
-                <div className={"h-[694px]"}>
+                <div className={""}>
                     <div className={"flex flex-wrap justify-center m-2 gap-8 xl:grid xl:grid-cols-3  "}>
                         <BenefitsCard index={1} title={"Free Courses"} description={"We offer free courses to make learning accessible to all kids, helping every young learner reach their potential."}/>
                         <BenefitsCard index={2} title={"Unlimited Access"} description={"Once enrolled, you have access to all your courses forever! Learn at your own pace, no rush."}/>
