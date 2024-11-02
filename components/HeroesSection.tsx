@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function HeroesSection() {
     return (
-        <section className="relative bg-[#bfe1fe] min-h-[579px] mt-16 overflow-hidden">
+        <section className="relative bg-[#bfe1fe] min-h-[600px] mt-16 overflow-hidden">
             <div className=" w-[100vw] md:flex md:flex-col md:items-start xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-around mx-auto px-4 py-20 z-10">
                 <div className="xl:w-[60%] max-w-3xl space-y-8  2xl:flex-1">
                     <h1 className="text-black text-[2.5rem] md:text-[2.6rem] lg:text-[2.8rem] xl:text-6xl 2xl:text-7xl font-semibold tracking-tight">
@@ -12,8 +12,7 @@ export default function HeroesSection() {
                     </h1>
                     <p className="text-black text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl font-normal">
                         NestLearn brings learning to life with endless stories, interactive lessons, and a world of
-                        resources for every young mind. Explore all genres and subjects designed to inspire, so
-                        every child feels seen, heard, and excited to learn!
+                        resources for every young mind.
                     </p>
                     <div className="flex flex-col items-start gap-6 md:flex md:flex-row md:items-baseline">
                         <button className="bg-[#FCD980] w-[185px] h-[54px] rounded-[5px] hover:outline-none border-2 border-transparent hover:border-[#FCD980] hover:bg-transparent  text-black px-4 py-2 mt-4">Get
