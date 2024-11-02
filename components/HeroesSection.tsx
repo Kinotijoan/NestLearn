@@ -4,9 +4,9 @@ import Image from "next/image"
 
 export default function HeroesSection() {
     return (
-        <section className="bg-[#bfe1fe] min-h-[579px] mt-16 overflow-hidden">
+        <section className="relative bg-[#bfe1fe] min-h-[579px] mt-16 overflow-hidden">
             <div className=" w-[100vw] md:flex md:flex-col md:items-start xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-around mx-auto px-4 py-20 z-10">
-                <div className="w-[60%] max-w-3xl space-y-8  2xl:flex-1">
+                <div className="xl:w-[60%] max-w-3xl space-y-8  2xl:flex-1">
                     <h1 className="text-black text-[2.5rem] md:text-[2.6rem] lg:text-[2.8rem] xl:text-6xl 2xl:text-7xl font-semibold tracking-tight">
                         Where Every Child Learns Their Way
                     </h1>
@@ -47,13 +47,6 @@ export default function HeroesSection() {
                     />
                 </div>
             </div>
-            <Image
-                className="absolute bottom-0 right-0 max-w-[275px] h-auto object-contain md:hidden lg:hidden xl:hidden 2xl:hidden"
-                src="/homepage/kids.png"
-                alt="Illustration of kids"
-                width={275}
-                height={275}
-            />
         </section>
     )
 }
